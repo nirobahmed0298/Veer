@@ -1,0 +1,44 @@
+
+/* Responsive */
+@media(max-width:991px){
+    .menu{
+        display: none;
+        background-color: rgb(27, 55, 55);
+        width: 100%;
+        padding:40px 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        
+    }
+    .menu ul{
+        display: block;
+        text-align: center;
+    }
+    .m-icon,.x-icon{
+        display: block;
+    }
+    .banner-content i{
+        font-size: 10px;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    .banner-content h1 span{
+        font-size: 25px;
+
+    }
+    .flex{
+        display: block;
+    }
+
+
+}
+@media(max-width:691px){
+    .logo img{
+        width: 55px;
+    }
+    .banner-content h1{
+        font-size: 30px;
+    }
+}
